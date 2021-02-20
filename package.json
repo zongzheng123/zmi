@@ -2,13 +2,13 @@
   "name": "zmi",
   "version": "0.0.1",
   "description": "脚手架",
-  "homepage": "https://github.com/umijs/create-umi",
+  "homepage": "https://github.com/zongzheng123/zmi",
   "bugs": {
-    "url": "https://github.com/umijs/create-umi/issues"
+    "url": "https://github.com/zongzheng123/zmi/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/create-umi"
+    "url": "https://github.com/zongzheng123/zmi"
   },
   "license": "MIT",
   "files": [
@@ -38,6 +38,7 @@
     "semantic-release": "^17.3.9",
     "semver": "^7.3.4",
     "sort-package-json": "^1.22.1",
+    "stream-buffers": "^3.0.2",
     "sylvanas": "^0.6.1",
     "typescript": "^4.0.0",
     "umi-utils": "^1.5.2",
