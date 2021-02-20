@@ -1,6 +1,6 @@
 {
-  "name": "zmi",
-  "version": "0.0.7",
+  "name": "zcli",
+  "version": "0.0.1",
   "description": "脚手架",
   "homepage": "https://github.com/zongzheng123/zmi",
   "bugs": {
@@ -17,7 +17,7 @@
     "lib"
   ],
   "bin": {
-    "zmi": "cli.js"
+    "zcli": "cli.js"
   },
   "scripts": {
     "prepublishOnly": "np --no-cleanup --yolo --no-publish",
