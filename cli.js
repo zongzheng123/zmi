@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 const yParser = require('yargs-parser');
 const semver = require('semver');
