@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 
 const yParser = require('yargs-parser');
 const semver = require('semver');
@@ -9,7 +8,6 @@ const run = require('./lib/run');
 
 // print version and @local
 const args = yParser(process.argv.slice(2));
-
 if (args.v || args.version) {
   console.log(require('./package').version);
   if (existsSync(join(__dirname, '.local'))) {

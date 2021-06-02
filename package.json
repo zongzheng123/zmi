@@ -1,11 +1,16 @@
 {
-  "name": "tiga",
+  "name": "ztiga",
   "version": "0.1.2",
   "description": "脚手架",
   "homepage": "https://github.com/zongzheng123/zmi",
   "bugs": {
     "url": "https://github.com/zongzheng123/zmi/issues"
   },
+  "keywords": [
+    "umi",
+    "antd",
+    "toolkit"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/zongzheng123/zmi"
@@ -16,8 +21,11 @@
     "index.js",
     "lib"
   ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "bin": {
-    "tiga": "cli.js"
+    "tiga": "node ./cli.js"
   },
   "scripts": {
     "prepublishOnly": "np --no-cleanup --yolo --no-publish",
@@ -27,22 +35,33 @@
     "pub": "npm publish --access public  --registry=http://registry.npmjs.org"
   },
   "dependencies": {
+    "@babel/generator": "^7.13.9",
+    "@babel/parser": "^7.13.13",
     "chalk": "4.0.0",
     "clipboardy": "^2.1.0",
+    "cookie": "^0.4.1",
     "debug": "^4.1.1",
     "execa": "^1.0.0",
     "fs-extra": "^8.0.1",
     "glob": "^7.1.4",
     "inquirer": "^6.4.1",
+    "json-schema-traverse": "^1.0.0",
+    "log4js": "^6.3.0",
     "mkdirp": "^0.5.1",
+    "mustache": "^4.2.0",
+    "normalize-url": "^5.3.0",
     "prettier": "^2.0.0",
     "semantic-release": "^17.3.9",
     "semver": "^7.3.4",
     "sort-package-json": "^1.22.1",
     "stream-buffers": "^3.0.2",
+    "stringify-object": "^3.3.0",
     "sylvanas": "^0.6.1",
     "typescript": "^4.0.0",
     "umi-utils": "^1.5.2",
+    "url": "^0.11.0",
+    "whatwg-mimetype": "^2.3.0",
+    "whatwg-url": "^8.5.0",
     "yargs-parser": "^13.1.1",
     "yeoman-environment": "^2.8.0",
     "yeoman-generator": "^4.0.1"
@@ -50,6 +69,8 @@
   "devDependencies": {
     "@types/jest": "^24.0.19",
     "coffee": "^5.2.1",
+    "dottie": "^2.0.2",
+    "html-escaper": "^3.0.3",
     "mm": "^2.5.0",
     "np": "^7.4.0",
     "umi-test": "^1.8.2"
